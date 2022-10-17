@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Testing Upload to Heroku")
+    return render(request,'polls.html')

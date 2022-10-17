@@ -5,9 +5,5 @@ from django.contrib.auth.forms import UserCreationForm
 
 
 def index(request):
-    context = {
-        'title':'Home',
-        'heading':'selamat Datang',
-    }
-    return HttpResponse("Ini home")
+    return render(request,'index.html')
 
