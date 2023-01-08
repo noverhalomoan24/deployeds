@@ -1,0 +1,152 @@
+{% extends "base.html"%}
+{% load static %}
+{% block simantic %}
+        <link rel="stylesheet" type="text/css" href="{% static '/css/style_polls.css'%}">
+{%endblock simantic%}
+
+{% block title %}
+        VeeData | Analisis Dasar
+{% endblock %}
+
+{% block content %}
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="{% url 'analisis_data' %}">Dasar Analisis</a>
+<!--  <a href="#">Services</a>-->
+<!--  <a href="#">Clients</a>-->
+<!--  <a href="#">Contact</a>-->
+</div>
+<div class="pembatas" id="pembatas">
+</div>
+<div class="content_pools" id="content_polls">
+    <h3>Dasar Analisis Data Dalam Pengambilan Keputusan</h3>
+    <hr style="height:1px;width:800px;border:none;color:#333;background-color:#333;"/>
+    <figure class="detail_media-image">
+        <img class="p_image_caption" src="/static/img/img_temp/dasar_analisis_p1.jpg">
+
+    </figure>
+    <p class="desc_polls">
+        <strong>Describe :</strong>
+        Analisis perlu mendalami refleksi dan pemahaman mengenai proses analisis data untuk <br>menemukan maslah.
+    </p>
+    <div class="step_polls">
+<!--        <h6>Step 1 : Prepare Data</h6>-->
+        <p class="desc_step">
+            Analisis dalah salah satu langkah awal yang dgunakan sebagai pengambilan keputusan, yang mana
+            melibatkan kecerdasan dalam pengambilan keputusan baik berdasarkan pada ilmu data maupun ilmu sosial.
+            Seorang analisis harus mampu membawa dirinya menjadi seperti seorang detektif atau penjelajah ,
+            karena pada dasarnya seorang analisis adalah seorang yang mencari untuk menemukan inspirasi terhadap
+            segala sesuatu mengenai data. Langkah dalam analisis terdapat beberapa langkah diantaranya ada
+            pengumpulan, transformasi, dan penataan data untuk menarik kesimpulan, lalu membuat prediksi,
+            dan memberi pertimbangan yang tepat untuk pengambilan keputusan. Analisis data berbeda dengan
+            analitik data.
+        </p>
+        <p>
+            Sebagai analisis data, melihat detail data dan kesesuaian data adalah tugas seorang data analisis
+            untuk dapat menemukan lebih lanjut kesalah pahaman yang ada didalam data analisis. Data dalam dunia
+            analis digambarkan seperti manusia,dia mampu berkembang dan memiliki ekosistem yang saling berkaitan,
+             berkembang dan berinteraksi satu sama lainya. Data juga memiliki sebuah ekosistem data yang mampu
+            menyimpan beberagai jenis informasi yang berkaitan dengan suatu masalah, sehingga dengan mengetahui
+            ekosistem pada suatu data, kita akan dengan mudah untuk melihat beberapa kesalahpamahan umum
+            yang kita temukan pada data. Contoh Ekosistem database Klaim Asuransi dimana kita ingin melihat
+            jenis asurasi mana yang banyak digunakan disetiap bulannya, yang mana terdiri dari jenis Klaim,
+            Business, Limit dan informasi lainya berkaitan dengan Asuransi sehingga data yang yang terkumpul
+            dapat memberikan gambaran masalah yang akan diselesaikan.
+        </p>
+        <p>
+            Analisis data bertugas dalam menemukan jawaban jawaban atas pertanyaan dan memperoleh informasi baru
+            dari data. Sementara dalam dunia data, ada banyak bagian lain yang bertanggung jawab dan berperan dalam
+            analisis data, diantaranya ada ilmuan data, data analitik, statistic yang mana setiap peran ini
+            memiliki fungsi yang berbeda-beda. Dalam analisis data ada beberapa tahapan penting yang harus
+            diperhatikan, diantaranya :
+        </p>
+        <div class="step_tabs">
+            <div class="each_step">
+                <span>1. Bertanya</span>
+                <p>
+                    Pada bagian ini seorang data analis harus mampu memberikan pertanyaan terkait masalah apa yang
+                    akan diselesaikan, dimana pertanyaan ini merupakan acuan dalam pencapaian pemecahan masalah.
+                    Setiap pertanyaan yang diberikan harus mampu mendefenisikan masalah yang akan diselesaikan,
+                    pertanyaan yang diajukan harus mampu memahami setiap masalah yang berkaitan dengan orang-orang
+                    yang terlibat dalam proyek tersebut, sehingga dapat menguraikan gagasan atau harapan orang-orang
+                    yang memiliki kepentingan dalam proyek tersebut. Dari uraian masalah ini kita juga mampu mengembangkan
+                    strategi komunikasi yang kuat pada setiap stakeholder yang ikut dalam proyek tersebut dan mengkomunikasikan
+                    stategi   yang dapat membantu anda ketertarikan stakeholder terhadap temuan yang akan anda temukan.
+                </p>
+            </div>
+
+             <div class="each_step">
+                <span>1. Mempersiapkan</span>
+                <p>
+                    Pada bagian ini seorang data analis akan banyak menghadapi jenis data, karena dengan cara mengidentifikasi
+                    jenis data yang akan dapat memecahkan masalah yang nantinya ini akan berpengaruh pada pengumpulan dan
+                    menyimpan data yang digunakan dalam analisis, sehingga kita mampu menemukan bagian penting pada data dan
+                    hasil yang objectif dan tidak bias.
+                </p>
+            </div>
+
+             <div class="each_step">
+                <span>3. Memproses</span>
+                <p>
+                    Pada bagian ini seorang analisis akan melakukan observasi data lebih lanjut yang berkaitan dengan memeriksa
+                    data untuk memastikan kelengkapan data, benar dan relevan dan memastikan data tidak berdada dalam outlier,
+                    yaitu data memiliki perbedaan yang significant dari data satu dengan dat lainya. Detail setiap data tentu
+                    menjadi bagian dalam tahapan ini kerena bagian ini kita memperbaiki setiap kesalahan ketik dan ketidak
+                    konsisten, data hilang dan tidak akurat sehingga integritas data dapat dipercaya.
+                </p>
+            </div>
+
+             <div class="each_step">
+                <span>4. Menganalisis</span>
+                <p>
+                    Setelah kumpulan data menjadi data yang relevan dan baik untuk diproses, kemudian ditahapan ini kita melakukan pengubahan data,
+                    menyaring dan mengidentifikasi setiap data sehingga menemukan pola yang terkait dalam pengambilan keputusan
+                    bedasarkan data. Pada tahapan ini kita menggunakan alat analisis untuk menarik kesimpulan
+                </p>
+            </div>
+
+             <div class="each_step">
+                <span>5. Membagikan</span>
+                <p>
+                    Pada tahapan ini kita penting melakukan visualisasi yang mana dapat mengambarkan secara jelas kumpulan data
+                    berdasarkan setiap element dalam data. Pada bagian ini kita akan membuat data menjadi lebih bernyawa karena
+                    kita melakukan visualisasi bedasarkan kumpulan data, pada bagian ini banyak analisis menggunakan nahasa
+                    pemrograman python dan R sebagai alat untuk visualisasi, sehingga membagikan setiap detail data dapat dengan
+                    mudah melalui visualisasi data. Pada tahapan ini kita juga harus mampu menafsikan dan mengkomunikasikan setiap
+                    kesimpulan kepada orang lain untuk membuat keputusan berbasis data.
+                </p>
+            </div>
+
+             <div class="each_step">
+                <span>6. Bertindak </span>
+                <p>
+                    Pada bagian ini stakeholder menerima wawasan yang telah tersedia sehingga kita sebagai analisis mampu mengambil
+                    keputusan bedasarkan wawasan yang telah kita dapat dari data untuk membuat hal baru baik itu pada stategi bisnis
+                    dalam mengembangkan product.
+                </p>
+            </div>
+        </div>
+        <p>
+            Dalam dunia data, data memiliki sebuah siklus hidup data, yang mana siklus ini menggambarkan keseluruhan data
+            dan siklus hidup data berbeda dengan siklus pengolahan data. Siklus pengolahan data terdapat tiga bagian yaitu
+            input, process dan output, sementara siklus hidup data adalah proses bagaimana data dibuat sampai data
+            tesebut digunakan dan mengahasilkan sebuah informasi yang berguna. Siklus hidup data sangat berkaitan dengan
+            siklus pengolahan data yang bisa membuat data menjadi lebih hidup dan dapat berguna.
+        </p>
+    </div>
+
+</div>
+
+
+
+
+
+ {% endblock %}
+
+{% block js_content %}
+<script type="text/javascript" src="{% static 'js/scripts_polls.js'%}"></script>
+
+ {% endblock %}
+

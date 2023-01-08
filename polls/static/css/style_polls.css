@@ -1,0 +1,106 @@
+
+.sidenav{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.pembatas{
+    width:5px;
+    height:100%;
+    margin-left:200px;
+    background-color:#6351ce;
+    position:fixed;
+    top:0;
+    cursor:pointer;
+
+}
+
+.content_pools{
+    text-rendering: optimizeSpeed;
+    font-family: Helvetica-FF, Arial, Tahoma, sans-serif;
+    width:100%;
+    margin-left:205px;
+    top:0;
+    padding-top:100px;
+    padding-left:40px;
+}
+
+/* for nav and footer */
+#fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+   z-index: 10000;
+}
+
+footer{
+    clear: both;
+    width:100%;
+    position:relative;
+    bottom:0;
+    margin-left:205px;
+
+}
+
+
+/* create a content */
+.desc_polls{
+    width:80%;
+    padding-left:50px;
+}
+.step_polls{
+    margin-top:40px;
+    width:75%;
+
+    text-align:justify;
+    left: 1%;
+}
+
+.step_polls p{
+    font-size: 16px;
+    color:#000000;
+}
+
+
+
+
+/*images_caption */
+.detail_media-image{
+    margin-left:50px;
+}
+.p_image_caption{
+    width:55%;
+    height:400px;
+}
+.each_step span{
+    font-weight:bold;
+}
+
+.each_step{
+    margin-left:50px;
+}
+.last_footer{
+    margin-top:100%;
+}
